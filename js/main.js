@@ -25,22 +25,22 @@ async function geojsonFetch() {
           'step',
           ['get', 'fullyVaxPer10k'],
 
-          '#f5feed', // stop_output_1
+          '#dbfac0', // stop_output_1
           4000, // stop_input_1
 
-          '#e7fcd5', // stop_output_2
+          '#bef594', // stop_output_2
           5000, // stop_input_2
 
-          '#caf7a5', // stop_output_3
+          '#abf277', // stop_output_3
           5500, // stop_input_3
 
-          '#a3f16c', // stop_output_4
+          '#92ee53', // stop_output_4
           6000, // stop_input_4
 
-          "#88ed44" // stop_output_7
+          "#72ea18" // stop_output_7
         ],
         'fill-outline-color': '#BBBBBB',
-        'fill-opacity': 0.9,
+        'fill-opacity': 0.8,
       }
     });
 
@@ -67,11 +67,11 @@ const layers = [
   '6000 and more'
 ];
 const colors = [
-  '#f5feed90',
-  '#e7fcd590',
-  '#caf7a590',
-  '#a3f16c90',
-  '#88ed4490'
+  '#dbfac080',
+  '#bef59480',
+  '#abf27780',
+  '#92ee5380',
+  '#72ea1880'
 ];
 
 const legend = document.getElementById('legend');
